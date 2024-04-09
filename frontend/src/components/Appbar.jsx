@@ -8,7 +8,7 @@ export function Appbar({label}){
 
     //fetch firstname of user from backend
     const [firstName,setFirstName]=useState("")
-    axios.get("http://localhost:3000/api/v1/user/firstname",
+    axios.get("https://transactify.onrender.com/api/v1/user/firstname",
     {
      headers : {
          authorization : "Bearer "+localStorage.getItem("token")
