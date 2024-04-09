@@ -12,7 +12,7 @@ export const Users = () => {
     useEffect(()=>{
         
         //fetch all the users
-        axios.get("http://localhost:3000/api/v1/user/bulk?filter="+filter,{
+        axios.get("https://transactify.onrender.com/api/v1/user/bulk?filter="+filter,{
             headers :{
                 authorization : "Bearer "+localStorage.getItem("token")
             }
