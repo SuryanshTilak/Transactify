@@ -17,7 +17,7 @@ export const SendMoney = () => {
         e.preventDefault()
         
         //fetch information from backend
-        await axios.post("http://localhost:3000/api/v1/account/transfer",
+        await axios.post("https://transactify.onrender.com/api/v1/account/transfer",
         {
          amount : amt,
          to : id
