@@ -6,7 +6,7 @@ export function Balance(){
     const [bal,setBal]=useState(0)
 
     //fetch balance from backend
-    axios.get("http://localhost:3000/api/v1/account/balance",
+    axios.get("https://transactify.onrender.com/api/v1/account/balance",
     {
      headers : {
          authorization : "Bearer "+localStorage.getItem("token")
