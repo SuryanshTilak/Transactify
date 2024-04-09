@@ -27,9 +27,6 @@ export function Appbar({label}){
             {label}
         </div>
         <div className="flex items-center">
-            <div className="flex flex-col justify-center font-medium h-full">
-                Hello
-            </div>
             <div className="rounded-full bg-slate-200 flex justify-center py-1.5 px-2 mx-3">
                 <div className="flex flex-col justify-center h-full text-l font-medium">
                     {firstName}
